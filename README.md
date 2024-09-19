@@ -4,8 +4,10 @@
 
  ## Writing to the File:
  Uses ofstream to write student details to a file named StudentDetails.txt.
+ 
  Each student’s details are input through cin and written to the file in a formatted manner.
 
 ## Reading from the File:
 After writing, the program uses ifstream to read the content from StudentDetails.txt and displays it on the console.
+
 The getline() function is used to read each line from the file and display it.
